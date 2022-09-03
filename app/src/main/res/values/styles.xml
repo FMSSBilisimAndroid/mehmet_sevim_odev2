@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="blackButton">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:fontFamily">@font/inder</item>
+        <item name="android:textSize">36sp</item>
+        <item name="backgroundTint">#000000</item>
+        <item name="cornerRadius">30dp</item>
+    </style>
+
+    <style name="textInputstyle">
+        <item name="android:layout_width">338dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
