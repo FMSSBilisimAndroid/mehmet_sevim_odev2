@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView_LoginScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -16,14 +16,14 @@
         app:srcCompat="@drawable/ic_union__3_" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInput"
+        android:id="@+id/textInput_Loginscreen_Password"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_LoginScreen_Password"
         android:inputType="textPassword"
         style="@style/textInputstyle" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_Loginscreen_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_Loginscreen_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -45,10 +45,10 @@
         android:textColor="#565656"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Loginscreen_title" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView_LoginScreen_Username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -60,15 +60,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInput1"
+        android:id="@+id/textInput_Loginscreen_username"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_LoginScreen_Username"
         style="@style/textInputstyle"/>
 
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView_LoginScreen_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -80,7 +80,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
+        android:id="@+id/button_LoginScreen_login"
         style="@style/blackButton"
         android:layout_width="220dp"
         android:layout_height="60dp"
@@ -92,7 +92,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton3"
+        android:id="@+id/materialButton_LoginScreen_Forgot"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
@@ -104,10 +104,10 @@
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button_LoginScreen_login" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton4"
+        android:id="@+id/materialButton_LoginScreen_NewAcc"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
@@ -119,5 +119,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton3" />
+        app:layout_constraintTop_toBottomOf="@+id/materialButton_LoginScreen_Forgot" />
 </androidx.constraintlayout.widget.ConstraintLayout>
