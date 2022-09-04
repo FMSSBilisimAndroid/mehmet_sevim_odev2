@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:fontFamily="@font/inter_semibold"
-            android:text="Enter Your Username Password"
+            android:text="Enter Your Username \u0026 Password"
             android:textColor="#565656"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
