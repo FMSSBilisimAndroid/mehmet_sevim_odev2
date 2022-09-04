@@ -1,13 +1,21 @@
 package com.dag.odev2fmss
 
+import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
 import android.os.Bundle
+import android.preference.PreferenceManager
+import android.preference.PreferenceManager.getDefaultSharedPreferences
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.dag.odev2fmss.databinding.ActivityLoginBinding
+
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var loginBinding: ActivityLoginBinding
     private lateinit var myIntent: Intent
+    private lateinit var Username:String
+    private lateinit var Password:String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,7 +47,9 @@ class LoginActivity : AppCompatActivity() {
              * Giriş yapmayı sağlayan fonksiyon çalıştırıldıdir
              */
             materialbuttonLoginScreenLogin.setOnClickListener {
-                login()
+                Username = textInputLoginscreenUsername.text.toString()
+                Password = textInputLoginscreenPassword.text.toString()
+                login(Username,Password)
             }
 
         }
@@ -62,7 +72,21 @@ class LoginActivity : AppCompatActivity() {
         startActivity(myIntent)
     }
 
-    fun login(){
+    fun login(username:String,password:String){
+        val userInfo = this.getSharedPreferences("UserInfo",Context.MODE_PRIVATE);
+        var user=userInfo.getString("UserName","")
+        var pass=userInfo.getString("Password","")
+        if(username == user && pass==password )
+        {
+            Toast.makeText(applicationContext, "Giriş Başarılı", Toast.LENGTH_LONG).show()
+        }
+        else
+        {
+
+        }
+
 
     }
+
+
 }
