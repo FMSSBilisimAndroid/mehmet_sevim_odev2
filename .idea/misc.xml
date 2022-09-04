@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1915" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_createaccount.xml" value="0.1915" />
+        <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1915" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_union__2_.xml" value="0.1" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_union__3_.xml" value="0.1915" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_union__4_.xml" value="0.1915" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_union__5_.xml" value="0.1915" />
+        <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/ic_vector_back_arrow.xml" value="0.1915" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/drawable/line.xml" value="0.1915" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/layout/activity_create_account.xml" value="0.358695652173913" />
         <entry key="..\:/Users/mehme/Odev2/mehmet_sevim_odev2/app/src/main/res/layout/activity_get_started.xml" value="0.25" />

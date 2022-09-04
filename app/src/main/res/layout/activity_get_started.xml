@@ -1,76 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".GetStartedActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:id="@+id/imageView_getStarted_Back"
-        android:layout_width="339dp"
-        android:layout_height="421dp"
-        android:layout_marginStart="5dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_union__2_" />
+    <data>
 
-    <ImageView
-        android:id="@+id/imageView_GetStarted_pic1"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="95dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mask_group" />
+    </data>
 
-    <ImageView
-        android:id="@+id/imageView_GetStarted_pic2"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-        android:layout_marginEnd="90dp"
-        android:layout_marginBottom="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView_GetStarted_pic1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/mask_group2" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GetStartedActivity">
 
-    <TextView
-        android:id="@+id/textView_GetStarted_Title"
-        android:layout_width="362dp"
-        android:layout_height="164dp"
-        android:layout_marginTop="350dp"
-        android:layout_marginEnd="5dp"
-        android:fontFamily="@font/inter_extrabold"
-        android:text="Let’s Get Started"
-        android:textColor="#000000"
-        android:textSize="65sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView_getStarted_Back"
+            android:layout_width="339dp"
+            android:layout_height="421dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_get_started_svg" />
 
-    <TextView
-        android:id="@+id/textView_GetStarted_Subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
-        android:layout_marginEnd="230dp"
-        android:fontFamily="@font/inter_medium"
-        android:text="Grow Together"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView_GetStarted_pic1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="95dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/get_started_profile1" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialbutton_GetStarted_Join"
-        style="@style/blackButton"
-        android:layout_height="65dp"
-        android:layout_marginTop="570dp"
-        android:text="JOIN NOW"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageView_GetStarted_pic2"
+            android:layout_width="89dp"
+            android:layout_height="89dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView_GetStarted_pic1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/get_started_profile2" />
+
+        <TextView
+            android:id="@+id/textView_GetStarted_Title"
+            android:layout_width="362dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="Let’s Get Started"
+            android:textColor="#000000"
+            android:textSize="65sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_GetStarted_Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:layout_marginEnd="230dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="Grow Together"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialbutton_GetStarted_Join"
+            style="@style/blackButton"
+            android:layout_height="65dp"
+            android:layout_marginTop="570dp"
+            android:text="JOIN NOW"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
